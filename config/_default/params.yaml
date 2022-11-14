@@ -8,7 +8,10 @@
 appearance:
   theme_day: minimal
   theme_night: minimal
+  # font options: minimal (modern), classic (original Academic v1 style) 
+  # rose (traditional serif) mr robot (futuristic)
   font: minimal
+  # font size ranges from XS to XL
   font_size: L
 
 # SEO
