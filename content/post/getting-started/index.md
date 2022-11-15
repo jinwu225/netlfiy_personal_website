@@ -1,9 +1,8 @@
 ---
 title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
-
+subtitle: Welcome 👋 We know that first impressions are important.
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: Welcome 👋 We know that first impressions are important.
 
 # Link this post with a project
 projects: []
@@ -61,8 +60,6 @@ print('hello')
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
 
-<!-- Insert Bolded Bigger Text -->
-##### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/)
-
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
+<!-- Insert Bolded Smaller Text -->
+##### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/
 

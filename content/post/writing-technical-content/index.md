@@ -4,6 +4,7 @@ date: 2019-07-12
 math: true
 image:
   placement: 2
+  # Insert Image from URL with Image Credit caption
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
@@ -15,8 +16,7 @@ On this page, you'll find some examples of the types of technical content that c
 
 ## Examples
 
-### Code
-
+### 1) Code
 Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the `syntax_highlighter` option in your `config/_default/params.yaml` file.
 
     ```python
@@ -33,7 +33,7 @@ data = pd.read_csv("data.csv")
 data.head()
 ```
 
-### Mindmaps
+### 2) Mindmaps
 
 Wowchemy supports a Markdown extension for mindmaps.
 
@@ -115,7 +115,7 @@ renders as
     - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 ```
 
-### Charts
+### 3) Charts
 
 Wowchemy supports the popular [Plotly](https://plot.ly/) format for interactive charts.
 
@@ -127,7 +127,7 @@ Demo:
 
 You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
 
-### Math
+### 4) Math
 
 Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
 
@@ -171,7 +171,7 @@ $$
 
 {{< /math >}}
 
-### Diagrams
+### 5) Diagrams
 
 Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
 
@@ -311,7 +311,7 @@ Moving --> Crash
 Crash --> [*]
 ```
 
-### Todo lists
+### 6) Todo lists
 
 You can even write your todo lists in Markdown too:
 
@@ -327,7 +327,7 @@ renders as
   - [x] Write diagram example
 - [ ] Do something else
 
-### Tables
+### 7) Tables
 
 Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
 
@@ -339,7 +339,7 @@ renders as
 
 {{< table path="results.csv" header="true" caption="Table 1: My results" >}}
 
-### Callouts
+### 8) Callouts
 
 Academic supports a [shortcode for callouts](https://wowchemy.com/docs/content/writing-markdown-latex/#callouts), also referred to as _asides_, _hints_, or _alerts_. By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
 
@@ -355,7 +355,7 @@ renders as
 A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 {{% /callout %}}
 
-### Spoilers
+### 9) Spoilers
 
 Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.
 
@@ -369,7 +369,7 @@ renders as
 
 {{< spoiler text="Click to view the spoiler" >}} You found me! {{< /spoiler >}}
 
-### Icons
+### 10) Icons
 
 Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://wowchemy.com/docs/getting-started/page-builder/#icons) in addition to [emojis](https://wowchemy.com/docs/content/writing-markdown-latex/#emojis).
 
@@ -386,5 +386,3 @@ renders as
 {{< icon name="terminal" pack="fas" >}} Terminal  
 {{< icon name="python" pack="fab" >}} Python  
 {{< icon name="r-project" pack="fab" >}} R
-
-### Did you find this page helpful? Consider sharing it 🙌
