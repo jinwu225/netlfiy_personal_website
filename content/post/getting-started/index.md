@@ -61,7 +61,7 @@ print('hello')
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
 
-<!-- Insert Bolded Bigger Text >
+<!-- Insert Bolded Bigger Text -->
 ##### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/)
 
 As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
