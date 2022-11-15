@@ -6,6 +6,7 @@ widget: accomplishments
 # This file represents a page section.
 headless: true
 
+# Put Your Section Options Here (title, background, etc.) ...
 # Order that this section appears on the page.
 weight: 50
 
@@ -15,6 +16,7 @@ subtitle:
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
+# Use the same format as date_format listed in the config/_default/params.yaml
 date_format: Jan 2006
 
 # Accomplishments.
@@ -22,6 +24,9 @@ date_format: Jan 2006
 #   `title`, `organization`, and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#   To use an organization logo, logos in SVG format should be added to the
+#   asset/media/icons/brands folder, named with naming convention (brand name in 
+#   lowercase and replacing spaces with underscores)
 item:
   - certificate_url: https://www.coursera.org
     date_end: ''

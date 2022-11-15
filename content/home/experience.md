@@ -6,14 +6,15 @@ widget: experience
 # This file represents a page section.
 headless: true
 
+# Put Your Section Options Here (title, background, etc.) ...
 # Order that this section appears on the page.
-weight: 40
-
 title: Experience
 subtitle:
+weight: 40
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
+# Use the same format as date_format listed in the config/_default/params.yaml
 date_format: Jan 2006
 
 # Experiences.
@@ -21,6 +22,8 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#   To add an company logo, use company_logo: my-logo, where my my-logo 
+#   references an SVG image in assets/media/icons/brands/ folder.
 experience:
   - title: CEO
     company: GenCoin
