@@ -1,4 +1,6 @@
+
 +++
+# Front Matter is written in TOML syntax instead of YAML
 # A Demo section created with the Blank widget.
 # Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
@@ -13,7 +15,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
