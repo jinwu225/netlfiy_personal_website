@@ -14,10 +14,15 @@ weight: 65
 
 content:
   # Page type to display. E.g. project.
+  # Or, folders to display content from
   page_type: project
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
+
+  # Field to sort by, such as Date or Title
+  sort_by: 'Date'
+  sort_ascending: false
 
   # Filter toolbar (optional).
   # Add or remove as many filters (`filter_button` instances) as you like.
@@ -41,8 +46,9 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: showcase
+  view: list
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows: true
+  # Alternative text on the left and text on the right with Image for each sequential posts
+  flip_alt_rows: false
 ---
