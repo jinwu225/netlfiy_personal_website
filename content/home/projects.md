@@ -7,10 +7,10 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
-
+# ... Put Your Section Options Here (title etc.) ...
 title: Projects
 subtitle: ''
+weight: 65
 
 content:
   # Page type to display. E.g. project.
@@ -44,5 +44,5 @@ design:
   view: showcase
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows: false
+  flip_alt_rows: true
 ---
