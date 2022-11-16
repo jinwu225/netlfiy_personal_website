@@ -46,7 +46,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: card
+  view: masonry
 
   # For Showcase view, flip alternate rows?
   # Alternative text on the left and text on the right with Image for each sequential posts
